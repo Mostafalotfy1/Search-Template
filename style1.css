@@ -1,0 +1,72 @@
+*{
+    box-sizing:border-box;
+    
+}
+.container{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    background-color: rgb(72, 81, 85);
+    padding-bottom: 30px;
+}   
+.field{
+    margin:  3px auto;
+    text-align: center;
+    padding: 20px;
+}
+.field input{
+    
+    padding: 40px 40px;
+    margin: auto;
+    border: none;
+    background-color: rgb(163, 154, 154);
+    color: blue;
+    width: 50%;
+    font-size: 30px;
+}
+.field input:focus{
+    outline: 3px solid #FFF;
+}
+.field .btn{
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    border: 3px solid #FFF;
+    border-radius: 20px;
+}
+hr{
+    padding: 2px;
+   background-color: #FFF;
+}
+.output{
+    margin-top: 20px;
+    
+    color: #FFF;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.output .span{
+    width: 100%;
+}
+.output .result{
+    background-color: #999;
+    color: #FFF;
+    float: left;
+    width: 49%;
+    border: 2px solid #FFF;
+    margin-right: 1%;
+}
+.output .UserId{
+    float: right;
+    color: red;
+    width: 49%;
+    border: 2px solid #FFF;
+    margin-left: 1%;
+
+}
+.clearfix{
+    clear: both;
+}
